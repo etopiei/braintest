@@ -1,0 +1,6 @@
+__pycache__
+.DS_Store
+generate_program.py
+hello_world.bf
+TODO.md
+dist/
