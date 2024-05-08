@@ -32,7 +32,7 @@ Then you can use a locally installed brainf\*ck interpreter to run your newly cr
 
 ## Running a program
 
-A simple brainf\*ck interpreter can be found in this repo. To run a program, pipe the program into the interpreter:
+A simple brainf\*ck interpreter can be found in this repo ([here](brainfuck-simple.py)). To run a program, pipe the program into the interpreter:
 
 ```
 cat my_program.bf | python brainfuck-simple.py
@@ -58,7 +58,7 @@ To write a `<` - write a test that succeeds when it shouldn't
 
 To write a `,` - write a test that throws an IOError
 
-You can see examples of all of these in action in the sample `program.py` provided in this repo.
+You can see examples of all of these in action in the [sample test](tests/test_program.py) provided in this repo.
 Be careful though! Tests are ran in order based on their alphabetical sorting of their function names.
 
 ## Why?
