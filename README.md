@@ -8,6 +8,10 @@ Well wonder no longer!
 
 Braintest is designed to be a drop in replacement for python's `unittest` module. It will run your tests (mostly) as normal, while also outputing a brainf\*ck program. Exceptions being: `unittest`'s verbosity option is overwritten, so you can't alter the verbosity of tests while running this.
 
+## Demo
+
+![demo gif of hello world](demo.gif)
+
 ## Usage
 
 First install braintest:
